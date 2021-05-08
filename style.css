@@ -67,9 +67,17 @@ a.call-to-action {
     margin-top: 1em;
 }
 
+a.go-back {
+    display: inline-block;
+    padding: 1em 0;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
 .header {
     text-align: center;
     padding: 4em 0;
+    padding-top: 3em;
 }
 
 .header h1 {
