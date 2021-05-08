@@ -53,7 +53,7 @@ aside {
 .white-kitty {
     --image-width: 441px;
     --image-height: 522px;
-    --image-url: url("../assets/white-kitty.png");
+    --image-url: url("./assets/white-kitty.png");
 }
 
 a.call-to-action {
