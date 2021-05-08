@@ -27,6 +27,11 @@ body {
     position: relative;
 }
 
+main {
+    padding-right: 2em;
+    box-sizing: border-box;
+}
+
 aside {
     text-align: center;
 }
