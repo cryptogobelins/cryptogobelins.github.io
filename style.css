@@ -128,8 +128,8 @@ main h2:first-of-type {
 
 .gallery li img {
     display: block;
-    width: 240px;    
     height: 280px;
+    width: auto;
     border-radius: 0.5em;
 }
 
