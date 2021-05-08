@@ -75,6 +75,11 @@ a.call-to-action {
     margin: 0;
 }
 
+.header h1 .serial-number {
+    font-size: 0.4em;
+    opacity: 0.5;
+}
+
 main h2 {
     color: var(--accent-color);
     font-weight: normal;
