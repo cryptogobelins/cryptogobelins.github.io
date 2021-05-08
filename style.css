@@ -60,6 +60,11 @@ aside {
     --image-url: url("/assets/cats-in-winter.png");
 }
 
+.couch-cat {
+    --accent-color: #c28574;
+    --image-url: url("/assets/couch-cat.png");
+}
+
 a.call-to-action {
     display: block;
     text-decoration: none;
