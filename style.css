@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lato&display=swap');
 
 html,
 body {
-    font-family: sans-serif;
     overflow: auto;
     padding: 0;
     margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.white-kitty {
+    --accent-color: #aea794;
 }
 
 .main-container {
@@ -42,5 +46,14 @@ body {
 .header h1 {
     font-size: 64px;
     font-family: "Lobster", cursive;
+    font-weight: normal;
+    color: var(--accent-color);
     margin: 0;
+}
+
+main h2 {
+    color: var(--accent-color);
+    font-weight: normal;
+    font-size: 1.8em;
+    font-family: "Lobster";
 }
