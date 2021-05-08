@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 html,
 body {
     font-family: sans-serif;
@@ -21,19 +23,24 @@ body {
     position: relative;
 }
 
-.white-kitty {
-    background-image: url("../assets/white-kitty.png");
+.preview {
     background-size: contain;
+    border-radius: 0.5em;
+}
+
+.preview.white-kitty {
+    background-image: url("../assets/white-kitty.png");
     width: 441px;
     height: 522px;
-    border-radius: 1em;
 }
 
 .header {
     text-align: center;
-    padding: 2em 0;
+    padding: 4em 0;
 }
 
 .header h1 {
-    
+    font-size: 64px;
+    font-family: "Lobster", cursive;
+    margin: 0;
 }
