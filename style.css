@@ -136,3 +136,10 @@ main h2:first-of-type {
     font-family: "Lobster", cursive;
     font-size: 1.6em;
 }
+
+h2.collection-title {
+    text-align: center;
+    font-weight: normal;
+    font-family: "Lobster", cursive;
+    margin: 0;
+}
