@@ -81,3 +81,7 @@ main h2 {
     font-size: 1.8em;
     font-family: "Lobster";
 }
+
+main h2:first-of-type {
+    margin-top: 0;
+}
