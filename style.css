@@ -8,10 +8,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.white-kitty {
-    --accent-color: #aea794;
-}
-
 .main-container {
     max-width: 920px;
     margin: auto;
@@ -42,18 +38,26 @@ aside {
 }
 
 .preview {
+    --image-width: 441px;
+    --image-height: 522px;
+
     display: inline-block;
     background-size: contain;
     border-radius: 0.5em;
     background-image: var(--image-url);
     width: var(--image-width);
     height: var(--image-height);
+    max-width: 100%;
 }
 
 .white-kitty {
-    --image-width: 441px;
-    --image-height: 522px;
+    --accent-color: #aea794;
     --image-url: url("/assets/white-kitty.png");
+}
+
+.cats-in-winter {
+    --accent-color: #668cac;
+    --image-url: url("/assets/cats-in-winter.png");
 }
 
 a.call-to-action {
