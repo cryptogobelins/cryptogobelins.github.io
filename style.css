@@ -53,7 +53,7 @@ aside {
 .white-kitty {
     --image-width: 441px;
     --image-height: 522px;
-    --image-url: url("./assets/white-kitty.png");
+    --image-url: url("/assets/white-kitty.png");
 }
 
 a.call-to-action {
@@ -89,9 +89,35 @@ main h2 {
     color: var(--accent-color);
     font-weight: normal;
     font-size: 1.8em;
-    font-family: "Lobster";
+    font-family: "Lobster", cursive;
 }
 
 main h2:first-of-type {
     margin-top: 0;
+}
+
+.gallery {
+    display: flex;  
+    list-style-type: none;
+    padding: 0;
+    margin: 0;  
+    text-align: center;
+}
+
+.gallery li a {
+    text-decoration: none;
+    color: black;
+}
+
+.gallery li img {
+    display: block;
+    width: 240px;
+    height: auto;
+    border-radius: 0.5em;
+}
+
+.gallery figcaption {
+    margin-top: 0.25em;
+    font-family: "Lobster", cursive;
+    font-size: 1.6em;
 }
